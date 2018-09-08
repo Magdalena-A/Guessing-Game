@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* CUSTOM CSS */
+h1 {
+    font-family: 'Pacifico';
+    text-align: center;
+    font-size: 2em;
+    padding: 2em 0 1.5em;
+    border-bottom: solid 1px goldenrod;
+    margin-bottom: 2em;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h2, h4 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+}
+
+#input-parent {
+    height: 6em;
+    margin: auto;
+    margin-top: 3em;
+    width: 160px;
+}
+
+input {
+    font-size: 40px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+form button {
+    position: relative;
+    bottom: 40px;
+    left: 45px;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+#app {
+    background-color: rgba(255,255,255, 0.4);
+}
+
+ul {
+    padding: 3em;
+}
+
+img {
+    display: inline;
+    height: 65px;
+}
+
+#footer {
+    border-top: solid 2px goldenrod;
+    background-color: white;
+    position: fixed;
+    bottom: 30px;
+    left: 10%;
+    right: 10%;
+    display: inline-block;
+}
+
+#footer div {  /*  alternative solutions to align logo to left, logo to right, and text to center*/
+    display: inline-block;
+    /*line-height: 65px;*/
+}
+
+h4 {
+    text-transform: uppercase;
+    padding: 0 10em 0 10em;
+}
+
+#guesses li {
+    list-style-type: none;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px dotted goldenrod;;
+    border-radius: 50%;
+    background-color: white;
+}
+
+button {
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    padding: 0.4em 0.8em;
+    margin: 5px;
+}
+
+#go-btn {
+    border-radius: 50%;
+    padding: 0.8em 0.7em;
+    margin: 0;
+    font-size: 18px;
+}
+
+#menu-btns {
+    border-radius: 5%;
+}
+
+body {
+    background-color: lightgray;
+}
+
+
+/* add section to disable number spinbox on input field https://stackoverflow.com/questions/3790935/can-i-hide-the-html5-number-input-s-spin-box

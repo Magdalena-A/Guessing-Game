@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <title>Guessing Game</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Pacifico" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id='app'>
+
+        <div id='headers' class='center'>
+            <h1>Guessing Game</h1>
+            <h2>Guess a number between 1 and 100!</h2>
+        </div>
+
+        <div id='main' class='center'>
+            <div id='input-parent'>
+                <form><!-- Player's guess input, and submit button -->
+                    <input placeholder='#' type='number' maxlength= min='1' max='100' autofocus><!--player's guess input-->
+                    <button type='submit' id="go-btn">go!</button>
+                </form>
+            </div>
+
+            <div id='guesses'>
+                <!-- unordered list of guesses -->
+                <ul>
+                    <li>––</li>
+                    <li>––</li>
+                    <li>––</li>
+                    <li>––</li>
+                    <li>––</li>
+                </ul>
+            </div>
+
+            <div id='menu-btns'>
+                <button>Reset</button>
+                <button>Hint</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id='footer' class="center">
+        <div>
+            <div>
+                <img src='fa-logo2x.png'></img>
+            </div>
+
+            <div id='footer-center'>
+                <h4>Project by Magdalena A.</h4>
+            </div>
+
+            <div id='logo-right'>
+                <img src='grace_hopper_academy.png'></img>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!--fonts
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Pacifico|Quicksand" rel="stylesheet">
+Specify in CSS
+Use the following CSS rules to specify these families:
+
+font-family: 'Quicksand', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Amatic SC', cursive;
+-->
